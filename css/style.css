@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-collapse{
+    display:grid;
+    justify-content: center;
+}
+
+.hero-image{
+    max-width:100%;
+    height:auto;    
+}
+
+.show-date{
+    border: 2px solid gray;
+    display:grid;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+h2{
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.card-grid{
+    display:grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top:3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    align-items: center;
+}
+
+footer{
+    display:grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:3rem;
+    padding-left: 3rem;
+    align-items: center;
+    background-color:black;
+    color:blanchedalmond;
+}
+
+.footer-image{
+    max-height:300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
